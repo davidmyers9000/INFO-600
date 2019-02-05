@@ -2,21 +2,21 @@
   <head>
   </head>
   <style>
-  table { border-collapse: collapse; }
-  thead { background-color: lightblue;}
-  table, td, th {
-    padding: .625em;
-    border: .063em solid black;
-    text-align: center;	}
+    table { border-collapse: collapse; }
+    thead { background-color: lightblue;}
+    table, td, th {
+      padding: .625em;
+      border: .063em solid black;
+      text-align: center;	}
   </style>
   <body>
     <?php
-    $quantity = 25;
-    $price = 120.50;
-    $subtotal = $price * $quantity;
-    $taxrate = 0.075;
-    $taxamount = $subtotal * $taxrate;
-    $total = $subtotal + $taxamount;
+      $quantity = 25;
+      $price = 120.50;
+      $subtotal = $price * $quantity;
+      $taxrate = 0.075;
+      $taxamount = $subtotal * $taxrate;
+      $total = $subtotal + $taxamount;
     ?>
 
     <table>
